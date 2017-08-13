@@ -2,18 +2,10 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "debug-log": "^1.0.1",
-    "express": "^4.15.4",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.9",
-    "mysql": "^2.14.1"
-  },
-  "devDependencies": {},
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +18,11 @@
     "url": "https://github.com/kamoltip/burger/issues"
   },
   "homepage": "https://github.com/kamoltip/burger#readme",
-  "engines": {
-    "node": "7.7.4"
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.14.1"
   }
 }
