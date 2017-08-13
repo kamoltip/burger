@@ -1,8 +1,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
-
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 3000;
 
 var app = express();
 
@@ -23,10 +22,23 @@ app.set("view engine", "handlebars");
 // Import routes and give the server access to them.
 // var routes = require("./controllers/burger_controller.js");
 
+
+
 // app.use("/", routes);
 app.use("/",function(req, res){
-	res.send("hello i am from the server");
+
+	 
+	connection.query('SELECT * FROM burgers', function (error, results) {
+	  if (error) throw error;
+	  console.log('The solution is: ', results);
+
+	});
+	 	res.send("hello i am from the server");
+	// connection.end();
 });
+
+var path = require("path");
+
 
 
 app.listen(port);

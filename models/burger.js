@@ -27,4 +27,4 @@ unction(cols, vals, cb) {
 };
 
 // Export the database functions for the controller (catsController.js).
-module.exports = burgers;
+module.exports = burger;
