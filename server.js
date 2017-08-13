@@ -3,6 +3,7 @@ var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 var port = process.env.PORT || 3000;
 var exphbs = require("express-handlebars");
+const util = require('util');
 
 var app = express();
 var connection = require("./config/connection.js");
