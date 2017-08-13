@@ -1,7 +1,7 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
-var key = require("./config/key");
-var port = process.env.PORT || 5000;
+var key = require("./key.js");
+
 
 var connection;
 
