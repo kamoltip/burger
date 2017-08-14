@@ -31,9 +31,6 @@ router.put("/burgers/update", function(req, res) {
     res.redirect("/");
   });
 
-router.get("*",function(req, res){
-  res.redirect("/burgers");
-});
 });
 
 // Export routes for server.js to use.
