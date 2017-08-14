@@ -10,7 +10,7 @@ var burger = require("../models/burger.js");
 //   res.redirect("/burgers");
 // });
 
-router.get("/burgers", function(req, res) {
+router.get("/", function(req, res) {
   burger.all(function(burgerData) {
       res.render("index", {burger_data: burgerData});   
   });
