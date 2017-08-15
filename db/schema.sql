@@ -8,5 +8,6 @@ DROP TABLE IF EXISTS burgers;
 CREATE TABLE burgers (
 id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
 burger_name varchar(45) NOT NULL,
-devoured BOOL DEFAULT false, NOT NULL
+devoured BOOL DEFAULT false NOT NULL,
+createdAt TIMESTAMP NOT NULL
 );
