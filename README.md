@@ -14,7 +14,7 @@ The user may enter any burger name to add it to the menu. This also adds the new
 
 [demo](https://eat-dat-burgers.herokuapp.com/)
  
-![survey](../public/assets/images/burgerDemo.png)
+![home](../public/assets/img/burgerDemo.png)
 
 
 ***
