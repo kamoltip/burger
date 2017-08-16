@@ -12,9 +12,9 @@ The user may enter any burger name to add it to the menu. This also adds the new
 
 ### Demo
 
-[demo](https://eat-dat-burgers.herokuapp.com/).
+[demo](https://eat-dat-burgers.herokuapp.com/)
  
-![survey](/assets/images/burgerDemo.png)
+![survey](../public/assets/images/burgerDemo.png)
 
 
 ***
